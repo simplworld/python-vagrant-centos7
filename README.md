@@ -1,11 +1,11 @@
-# A CentOS 7.2 Vagrant Box with Python 3.5 via Ansible
+# A CentOS 7.2 Vagrant Box with Python 3.6 via Ansible
 
 * Apache 2.4, with mod_wsgi for running Django
 * FreeTDS drivers for MS SQL Server
 * PostgreSQL Drivers & Server
 * Node + npm
 
-This repository contains a CentOS 7.2 box for Vagrant. Python 3.5.3 is installed alongside the system Python (2.7.5). The Vagrant config uses Ansible roles to configure the box for the development environment, that should also be suitable for setting up a production server.
+This repository contains a CentOS 7.2 box for Vagrant. Python 3.6.1 is installed alongside the system Python (2.7.5). The Vagrant config uses Ansible roles to configure the box for the development environment, that should also be suitable for setting up a production server.
 
 MS SQL is also supported as a Django database backend with the FreeTDS ODBC Driver to SQL Server. PostgreSQL 9.6, including the server, can be install optionally for those using PostgreSQL.
 
